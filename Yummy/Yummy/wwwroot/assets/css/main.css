@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.drop {
+  display: none;
+}
+
+.drop:hover {
+  display: block;
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.slideshow {
+  padding: 100px 0;
+  background-color: #eee;
+}
+
+.healthyfood {
+  padding-top: 15px;
+  text-align: left;
+}
+
+.healthyfood h2 {
+  padding-top: 15px;
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.healthyfood p {
+  padding: 15px 0;
+  font-size: 20px;
+}
+
+.meal img {
+  width: 451px;
+  height: 451pxs;
+}
+
+#button {
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+#button a {
+  background-color: red;
+  padding: 12px 36px;
+  border-radius: 100px;
+  color: white;
+  text-decoration: none;
+}
+
+#button:hover {
+  opacity: 0.5;
+}
+
+.player a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+.player a:hover {
+  color: red;
+}
+
+.player i {
+  color: red;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 992px) {
+  .d-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+
+.menu {
+  padding-top: 70px;
+  text-align: center;
+}
+
+.menu h2 {
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.menu p {
+  text-transform: uppercase;
+}
+
+.menu span {
+  margin: 0 5px;
+  padding-bottom: 7px;
+  font-size: 20px;
+  border-bottom: 2px solid black;
+}
+
+#menu {
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+
+#starter {
+  font-weight: 600;
+  color: red;
+}
+
+#starter p {
+  text-transform: uppercase;
+}
+
+.meals {
+  padding-bottom: 30px;
+}
+
+.meals img {
+  width: 100%;
+}
+
+.meals h4, .meals p {
+  text-align: center;
+}
+
+.meals .price {
+  color: red;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.bookforum {
+  padding: 60px 0;
+}
+
+.book h2 {
+  text-transform: uppercase;
+  padding-top: 15px;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.book p {
+  text-align: center;
+  font-size: 45px;
+  text-transform: uppercase;
+}
+
+.book p span {
+  color: red;
+}
+
+.forum {
+  margin-top: 30px;
+  background-color: rgba(55, 55, 63, 0.04);
+}
+
+.forum .forumimg img {
+  width: 100%;
+}
+
+.tobook {
+  padding: 30px;
+}
+
+.tobook input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.tobook #msg {
+  padding: 20px;
+}
+
+.buton {
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.buton a {
+  background-color: red;
+  padding: 12px 36px;
+  border-radius: 100px;
+  color: white;
+  text-decoration: none;
+}
+
+.buton:hover {
+  opacity: 0.5;
+}
+
+.footer {
+  padding-top: 20px;
+  background-color: #00c3ff;
+}
+
+.addresv, .openflw {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=main.css.map */

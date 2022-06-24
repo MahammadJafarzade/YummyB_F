@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.drop{
+    li{
+    display: none;
+    &:hover{
+        display: block;
+    }
+}
+}
+.dropdown-menu{
+    &:hover{
+        display: block;
+    }
+}
+.btn-outline-success{
+    border-radius: 100px;
+}
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: red;
+  }
+  
+  .hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+   background-color: red;
+    transform-origin: bottom right;
+    transition: transform 0.4s ease-out;
+  }
+  
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+.title{
+    font-weight: 700;
+    font-size: 25px;
+    span{
+        color: red;
+    }
+}
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.slideshow{
+    padding: 100px 0;
+    background-color: #eee;
+}
+.healthyfood{
+    padding-top: 15px;
+    text-align: left;
+    h2{
+        padding-top: 15px;
+        font-size: 48px;
+        font-weight: 400;
+    }
+    p{
+        padding: 15px 0;
+        font-size: 20px;
+    }
+}
+.meal{
+    img{
+        width: 451px;
+        height: 451pxs;
+    }
+}
+#button{
+     transition: 0.8s;
+    a{
+        background-color: red;
+        padding: 12px 36px;
+        border-radius: 100px;
+        color: white;
+        text-decoration: none;
+    }
+    &:hover{
+        opacity: 0.5;
+    }
+}
+.player{
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+        font-weight: 600;
+        transition: 0.8s;
+        &:hover{
+            color: red;
+        }
+    }
+    i{
+        color: red;
+        font-size: 25px;
+    }
+}
+@media screen and (max-width:992px) {
+  .d-flex{
+    display: flex;
+    flex-direction: column-reverse;
+    }
+}
+.menu{ 
+    padding-top: 70px;
+    text-align: center;    
+    h2{
+        text-transform: uppercase;
+        font-size: 15px;
+    }
+    p{
+        text-transform: uppercase;
+    }
+    span{
+        margin: 0 5px;
+        padding-bottom: 7px;
+        font-size: 20px;
+        border-bottom: 2px solid black;
+    }
+}
+#menu{
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+#starter{
+    font-weight: 600;
+    color: red;
+    p{
+        text-transform: uppercase;
+        
+    }
+}
+.meals{
+    padding-bottom: 30px;
+    img{
+        width: 100%;
+
+    }
+    h4,p{
+        text-align: center;
+    }
+    .price{
+        color: red;
+        font-size: 25px;
+        font-weight: 700;
+    }
+}
+.bookforum{
+    padding: 60px 0;
+}
+.book{
+    h2{
+        text-transform: uppercase;
+        padding-top: 15px;
+        font-size: 13px;
+        font-weight: 400;
+        text-align: center;
+    }
+    p{
+        text-align: center;
+        font-size: 45px;
+        text-transform: uppercase;
+        span{
+            color: red;
+        }
+    }
+}
+
+
+.forum{
+    margin-top: 30px;
+    background-color: rgba(55, 55, 63, 0.04);
+    .forumimg{
+         img{
+              width: 100%;
+            }
+}
+}
+.tobook{
+    padding: 30px;
+    input{
+        width: 100%; 
+        padding: 10px; 
+        border: 1px solid #ccc; 
+        border-radius: 4px;
+        box-sizing: border-box; 
+        margin-top: 6px;
+        margin-bottom: 16px; 
+        resize: vertical
+    }
+    #msg{
+        padding: 20px;
+    }
+}
+.buton{
+    transition: 0.8s;
+    border: none;
+    display: flex;
+    justify-content: center;
+    a{
+        background-color: red;
+        padding: 12px 36px;
+        border-radius: 100px;
+        color: white;
+        text-decoration: none;
+    }
+    &:hover{
+        opacity: 0.5;
+    }
+}
+.footer{
+    padding: 30px 0;
+    background-color: #1f1f24;
+    color: wheat;
+    i{
+        cursor: pointer;
+        border: 1px solid wheat;
+        font-size: 15px;
+        border-radius: 55%;
+        padding: 10px;
+    }
+}
+
+.address{
+    display: flex;
+}
+.reservation{
+    display: flex;
+}
+.openninghours{
+    display: flex;
+}
+.item{
+    i{
+        font-size: 15px;
+        margin-right: 10px;
+    }
+}
